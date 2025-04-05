@@ -1,6 +1,6 @@
 <!-- Profile Banner -->
 <p align="center">
-  <img src="" width="100%" alt="Cyberworrier Banner" />
+  <img src="1741478059612.jpeg" width="100%" alt="Cyberworrier Banner" />
 </p>
 
 # Hi, I’m <span style="color:#00FFAB">Cyberworrier (Nabhan)</span> 👨‍💻
