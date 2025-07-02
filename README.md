@@ -67,7 +67,7 @@ Building a future where creativity meets cybersecurity.
 <p align="center">
   <a href="mailto:cyberworrier@proton.me"><img src="https://img.shields.io/badge/Email-cyberworrier@proton.me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/cyberworrier"><img src="https://img.shields.io/badge/LinkedIn-Cyberworrier-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/cyberworrier"><img src="https://img.shields.io/badge/Twitter-@cyberworrier-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="https://www.instagram.com/cyberworrier65?igsh=MXB3MDYxdG80cHdtNw=="><img src="https://img.shields.io/badge/Instagram-@cyberworrier-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
 </p>
 
 ---
