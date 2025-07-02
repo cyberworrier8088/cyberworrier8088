@@ -36,6 +36,7 @@ Building a future where creativity meets cybersecurity.
   <img src="https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Prompt%20Engineering-%23000000?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Google%20Dorking-%232181C1?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Assembly-%2300AC94?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </p>
 
 ---
@@ -54,7 +55,7 @@ Building a future where creativity meets cybersecurity.
 
 | Project | Description |
 |--------|-------------|
-| **Zero Day Lab** | Private repository of zero-day research & sandbox exploit testing |
+| **HydraReconPro** | All-in-One Offensive Recon Tool for Red Teamers & Hackers — Passive OSINT, Dir Bruteforce, Hidden Param Fuzzing & Tech Detection. |
 | **HackAI** | Merging machine learning models with penetration testing pipelines |
 | **WebArmor** | Secure-by-design portfolio of real-world web app defense strategies |
 | **TerminalEdge** | Automation scripts for Termux/Kali & post-exploitation |
