@@ -1,5 +1,17 @@
-<!-- Profile Banner -->
-<p align="center">
-  <img src="1741478059612.jpeg" width="100%" alt="Cyberworrier Banner" />
-</p>
+# Hi 👋, I'm Nabu
 
+Rust developer interested in operating systems, low-level programming, and open-source projects.
+
+## 🚀 Current Projects
+- Rust-DragonOS
+- CLI tools in Rust
+- Learning kernel development
+
+## 🛠 Tech Stack
+- Rust
+- Git
+- Linux
+- GitHub Actions
+
+## 📫 Contact
+- GitHub: https://github.com/yourusername
