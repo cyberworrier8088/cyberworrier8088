@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.5" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#7a5c22"/>
+      <stop offset="0.5" stop-color="#f5d78e"/>
+      <stop offset="1" stop-color="#7a5c22"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="320" rx="14" fill="#0b0a08"/>
+  <rect x="1" y="1" width="998" height="318" rx="13" fill="none" stroke="#d4af37" stroke-opacity="0.25"/>
+
+  <!-- editor window -->
+  <rect x="24" y="24" width="560" height="272" rx="8" fill="#12100c" stroke="#2a2418"/>
+  <path d="M24 56 H584" stroke="#2a2418"/>
+  <circle cx="44" cy="40" r="5" fill="#7a5c22"/>
+  <circle cx="62" cy="40" r="5" fill="#4a3b1a"/>
+  <circle cx="80" cy="40" r="5" fill="#2a2418"/>
+  <text x="304" y="45" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7a5c22">src/main.rs — DragonIDE</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14">
+    <g fill="#4a3b1a" text-anchor="end">
+      <text x="56" y="84">1</text><text x="56" y="102">2</text><text x="56" y="120">3</text>
+      <text x="56" y="138">4</text><text x="56" y="156">5</text><text x="56" y="174">6</text>
+      <text x="56" y="192">7</text><text x="56" y="210">8</text><text x="56" y="228">9</text>
+      <text x="56" y="246">10</text><text x="56" y="264">11</text><text x="56" y="282">12</text>
+    </g>
+
+    <!-- lines appear one by one on a 10s loop -->
+    <g fill="#e6dcc6">
+      <text x="72" y="84" opacity="0" fill="#c9a227">#[tauri::command]
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.04;0.05;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="72" y="102" opacity="0"><tspan fill="#f5d78e">fn</tspan> open_file(path: <tspan fill="#e6c97a">String</tspan>) -&gt; <tspan fill="#e6c97a">String</tspan> {
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.07;0.08;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="103" y="120" opacity="0">std::fs::read_to_string(path)
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.11;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="134" y="138" opacity="0">.unwrap_or_default()
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.14;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="72" y="156" opacity="0">}
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.17;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="72" y="192" opacity="0"><tspan fill="#f5d78e">fn</tspan> main() {
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.23;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="103" y="210" opacity="0">tauri::<tspan fill="#e6c97a">Builder</tspan>::default()
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.26;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="134" y="228" opacity="0">.invoke_handler(tauri::<tspan fill="#c9a227">generate_handler!</tspan>[open_file])
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.29;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="134" y="246" opacity="0">.run(tauri::<tspan fill="#c9a227">generate_context!</tspan>())
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.31;0.32;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="134" y="264" opacity="0">.expect(<tspan fill="#b8a06a">"dragon failed to wake"</tspan>);
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.35;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="72" y="282" opacity="0">}
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.37;0.38;0.94;1" dur="10s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+
+  <!-- caret after the last line -->
+  <rect x="82" y="270" width="8" height="16" fill="#f5d78e" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.38;0.43;0.48;0.53;0.58;0.63;0.68;0.73;0.78;0.83;0.88;1" calcMode="discrete" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- project info -->
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="0.3s" dur="0.8s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="20 0" to="0 0" begin="0.3s" dur="0.8s" fill="freeze"/>
+    <text x="620" y="110" font-family="Consolas, 'Courier New', monospace" font-size="42" font-weight="700" fill="url(#gold)">DragonIDE</text>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#e6dcc6">
+      <text x="620" y="150">A lightweight code editor</text>
+      <text x="620" y="174">built with Rust and Tauri.</text>
+    </g>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#d4af37">
+      <rect x="620" y="198" width="53" height="24" rx="12" fill="none" stroke="#7a5c22"/>
+      <text x="646.5" y="214" text-anchor="middle">Rust</text>
+      <rect x="681" y="198" width="60" height="24" rx="12" fill="none" stroke="#7a5c22"/>
+      <text x="711" y="214" text-anchor="middle">Tauri</text>
+      <rect x="749" y="198" width="96" height="24" rx="12" fill="none" stroke="#7a5c22"/>
+      <text x="797" y="214" text-anchor="middle">JavaScript</text>
+    </g>
+    <text x="620" y="270" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#7a5c22">open the repo →</text>
+  </g>
+</svg>

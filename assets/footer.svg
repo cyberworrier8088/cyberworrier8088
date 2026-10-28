@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.5" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#7a5c22"/>
+      <stop offset="0.5" stop-color="#f5d78e"/>
+      <stop offset="1" stop-color="#7a5c22"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="160" rx="14" fill="#0b0a08"/>
+  <rect x="1" y="1" width="998" height="158" rx="13" fill="none" stroke="#d4af37" stroke-opacity="0.25"/>
+
+  <!-- embers rising -->
+  <g fill="#f5d78e">
+    <circle cx="80" r="2"><animate attributeName="cy" from="170" to="-10" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="160" r="1.5"><animate attributeName="cy" from="170" to="-10" dur="8s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="240" r="2.5"><animate attributeName="cy" from="170" to="-10" dur="5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="330" r="1.5"><animate attributeName="cy" from="170" to="-10" dur="7s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="420" r="2"><animate attributeName="cy" from="170" to="-10" dur="9s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="590" r="1.5"><animate attributeName="cy" from="170" to="-10" dur="6s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="660" r="2"><animate attributeName="cy" from="170" to="-10" dur="7.5s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="7.5s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="740" r="1.5"><animate attributeName="cy" from="170" to="-10" dur="5.5s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="820" r="2.5"><animate attributeName="cy" from="170" to="-10" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="900" r="1.5"><animate attributeName="cy" from="170" to="-10" dur="6.5s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="120" r="1"><animate attributeName="cy" from="170" to="-10" dur="5s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" begin="4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" r="1"><animate attributeName="cy" from="170" to="-10" dur="6s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="950" r="1"><animate attributeName="cy" from="170" to="-10" dur="7s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="500" y="84" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="34" font-weight="700" letter-spacing="3" fill="url(#gold)">never give up.</text>
+  <text x="500" y="116" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#7a5c22">— imu</text>
+</svg>
