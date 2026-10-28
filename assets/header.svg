@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.5" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#7a5c22"/>
+      <stop offset="0.5" stop-color="#f5d78e"/>
+      <stop offset="1" stop-color="#7a5c22"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="l1"><rect x="56" y="128" height="32" width="0">
+      <animate attributeName="width" from="0" to="345" begin="0.6s" dur="1.6s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="l2"><rect x="56" y="166" height="32" width="0">
+      <animate attributeName="width" from="0" to="490" begin="2.6s" dur="2s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="1000" height="240" rx="14" fill="#0b0a08"/>
+  <rect x="1" y="1" width="998" height="238" rx="13" fill="none" stroke="#d4af37" stroke-opacity="0.25"/>
+
+  <text x="56" y="92" font-family="Consolas, 'Courier New', monospace" font-size="52" font-weight="700" letter-spacing="4" fill="url(#gold)">CYBERWORRIER8088</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="20">
+    <text x="56" y="152" fill="#d4af37" clip-path="url(#l1)">imu@lion:~$ cargo run --release</text>
+    <text x="56" y="190" fill="#a8916a" clip-path="url(#l2)">&gt; 15 y/o · rust · linux · learning in public</text>
+  </g>
+
+  <!-- cursor follows line 2's reveal, then blinks -->
+  <rect y="174" width="11" height="20" fill="#f5d78e" x="56" opacity="0">
+    <set attributeName="opacity" to="1" begin="2.6s"/>
+    <animate attributeName="x" from="56" to="546" begin="2.6s" dur="2s" fill="freeze"/>
+    <animate attributeName="fill-opacity" values="1;0;1" dur="1s" begin="4.6s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+
+  <!-- claw marks -->
+  <g fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round">
+    <path d="M820 40 Q850 120 836 200" stroke-dasharray="180" stroke-dashoffset="180">
+      <animate attributeName="stroke-dashoffset" to="0" begin="0.2s" dur="0.35s" fill="freeze"/>
+    </path>
+    <path d="M868 30 Q898 115 884 206" stroke-dasharray="190" stroke-dashoffset="190">
+      <animate attributeName="stroke-dashoffset" to="0" begin="0.32s" dur="0.35s" fill="freeze"/>
+    </path>
+    <path d="M916 44 Q944 120 930 196" stroke-dasharray="170" stroke-dashoffset="170">
+      <animate attributeName="stroke-dashoffset" to="0" begin="0.44s" dur="0.35s" fill="freeze"/>
+    </path>
+  </g>
+</svg>
